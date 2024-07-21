@@ -5,6 +5,15 @@ Phones can be dynamically added and infected with specific keys (refer to user i
 
 Thread synchronization ensures safe management of phone behaviors and interactions.
 
-## USER INSTRUCTIONS:
+# SET UP & USER INSTRUCTIONS:
+1. Ensure Java 11 is downloaded on your system. (Download Java 11: https://www.oracle.com/nz/java/technologies/javase/jdk11-archive-downloads.html)
+2. Download 'MobilePhoneVirusSimulation' folder.
+3. Locate Terminal/ Command Prompt.
+4. Navigate to 'MobilePhoneVirusSimulation' directory
+   Use the cd command to navigate to the directory containing the MazeProgram folder.
+5. Run ```javac -d bin src/*.java```
+6. Then, ```java -cp bin VirusSimulation``` to start the program.
+
+## SIMULATION INSTRUCTIONS:
 - Press the UP Arrow Key (↑): Increases the number of phones in the simulation.
 - Press the 'V' Key: Randomly infects one of the phones.
