@@ -11,8 +11,14 @@ Thread synchronization ensures safe management of phone behaviors and interactio
 3. Locate Terminal/ Command Prompt.
 4. Navigate to 'MobilePhoneVirusSimulation' directory
    Use the cd command to navigate to the directory containing the MazeProgram folder.
-5. Run ```javac -d bin src/*.java```
-6. Then, ```java -cp bin VirusSimulation``` to start the program.
+5. Run
+   ```nano
+   javac -d bin src/*.java
+   ```
+6. Then to start the program:
+   ```nano
+   java -cp bin VirusSimulation
+   ```
 
 ## SIMULATION INSTRUCTIONS:
 - Press the UP Arrow Key (↑): Increases the number of phones in the simulation.
