@@ -15,7 +15,7 @@ Thread synchronization ensures safe management of phone behaviors and interactio
    ```nano
    javac -d bin src/*.java
    ```
-6. Then to start the program:
+6. Then, to start the program:
    ```nano
    java -cp bin VirusSimulation
    ```
